@@ -9,9 +9,9 @@ import {
   CardBody,
   Table,
   Spinner,
-  Button
+  //Button
 } from "reactstrap";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { getListPesanan } from "actions/PesananAction";
 import { numberWithCommas } from "utils";
 import { Pesanans } from "components";
@@ -67,7 +67,7 @@ class ListPesanan extends Component {
                                 </p>
                           </td>
                           <td>
-                              <a href={getListPesananResult[key].url} className="btn btn-primary" target="_blank">
+                              <a href={getListPesananResult[key].url} className="btn btn-primary" target="_blank" rel="noopener noreferrer" >
                                   <i className="nc-icon nc-money-coins"></i> Midtrans
                               </a>
                           </td>

@@ -179,7 +179,7 @@ class TambahJersey extends Component {
                             alt="Foto Jersey (Depan)"
                           />
                           <FormGroup>
-                            <label>Foto Jersey (Depan)</label>
+                            <label>Foto Barang (Depan)</label>
                             <Input
                               type="file"
                               name="image1"
@@ -262,7 +262,7 @@ class TambahJersey extends Component {
                       <Row>
                         <Col md={6}>
                           <FormGroup>
-                            <label>Liga</label>
+                            <label>Kategori Barang</label>
                             <Input
                               type="select"
                               name="liga"

@@ -52,7 +52,7 @@ class TambahLiga extends Component {
       this.props.dispatch(tambahLiga(this.state));
     } else {
       //alert
-      swal("Failed!", "Maaf Nama Liga dan Logo Liga harus diisi", "error");
+      swal("Failed!", "Maaf Nama Kategori Barang dan Icon Kategoti harus diisi", "error");
     }
   };
 
@@ -60,7 +60,7 @@ class TambahLiga extends Component {
     const { tambahLigaResult } = this.props;
 
     if (tambahLigaResult && prevProps.tambahLigaResult !== tambahLigaResult) {
-      swal("Sukses", "Liga Sukses Dibuat", "success");
+      swal("Sukses", "Kategori Barang Sukses Dibuat", "success");
       this.props.history.push("/admin/liga");
     }
   }

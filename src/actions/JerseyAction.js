@@ -147,7 +147,7 @@ export const updateJersey = (data) => {
             })
         }
 
-        dispatchSuccess(dispatch, UPDATE_JERSEY, "Update Jersey Sukses");
+        dispatchSuccess(dispatch, UPDATE_JERSEY, "Update Barang Sukses");
       })
       .catch((error) => {
         dispatchError(dispatch, UPDATE_JERSEY, error);

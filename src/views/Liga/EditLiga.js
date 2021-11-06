@@ -59,7 +59,7 @@ class EditLiga extends Component {
       this.props.dispatch(updateLiga(this.state));
     } else {
       //alert
-      swal("Failed!", "Maaf Nama Liga harus diisi", "error");
+      swal("Failed!", "Maaf Nama Kategori Barang harus diisi", "error");
     }
   };
 
@@ -67,7 +67,7 @@ class EditLiga extends Component {
     const { updateLigaResult, getDetailLigaResult } = this.props;
 
     if (updateLigaResult && prevProps.updateLigaResult !== updateLigaResult) {
-      swal("Sukses", "Liga Sukses Diupdate", "success");
+      swal("Sukses", "Kategori Barang Sukses Diupdate", "success");
       this.props.history.push("/admin/liga");
     }
 

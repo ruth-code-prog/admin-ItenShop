@@ -38,7 +38,7 @@ class EditJersey extends Component {
       harga: 0,
       berat: 0,
       jenis: "",
-      ukurans: ["S", "M", "L", "XL", "XXL"],
+      ukurans: ["S", "M", "L", "XL", "XXL", "10ml", "20ml", "250ml"],
       ukuranSelected: [],
       ready: true,
       liga: "",

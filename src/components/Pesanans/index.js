@@ -24,6 +24,7 @@ export default class Pesanans extends Component {
               </Col>
 
               <Col md={5}>
+                  <p>Pesan : {pesanans[key].ukuran}</p>
                   <p>Pesan : {pesanans[key].jumlahPesan}</p>
                   <p>Total Harga : Rp. {numberWithCommas(pesanans[key].totalHarga)}</p>
               </Col>

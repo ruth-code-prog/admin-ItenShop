@@ -50,6 +50,7 @@ class ListPesanan extends Component {
                           <td>
                             <p>{getListPesananResult[key].tanggal}</p>
                             <p>({getListPesananResult[key].order_id})</p>
+                            <p>{getListPesananResult[key].user}</p>
                           </td>
                           <td>
                             <Pesanans pesanans={getListPesananResult[key].pesanans} />
